@@ -1,5 +1,10 @@
 {
 	"name": "Credit-Lending",
+	"properties": {
+		"globalConfigurations": {
+			"PipelineBillingEnabled": "true"
+		}
+	},
 	"location": "westeurope",
 	"identity": {
 		"type": "SystemAssigned",
