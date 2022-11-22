@@ -1,0 +1,9 @@
+{
+	"name": "Credit-Lending",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "43a0f681-a581-4b88-a2b5-678c699c54ce",
+		"tenantId": "10ee4382-6bf6-4904-a9a0-119d465c0fb5"
+	}
+}
