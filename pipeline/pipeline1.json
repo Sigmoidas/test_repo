@@ -24,11 +24,6 @@
 							"supportRFC5988": "true"
 						}
 					},
-					"sink": {
-						"type": "AzureSqlSink",
-						"writeBehavior": "insert",
-						"sqlWriterUseTableLock": false
-					},
 					"enableStaging": false,
 					"translator": {
 						"type": "TabularTranslator",
@@ -57,12 +52,6 @@
 				"inputs": [
 					{
 						"referenceName": "StocksResource",
-						"type": "DatasetReference"
-					}
-				],
-				"outputs": [
-					{
-						"referenceName": "AzureSqlTable2",
 						"type": "DatasetReference"
 					}
 				]
