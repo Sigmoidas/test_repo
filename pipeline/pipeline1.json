@@ -411,7 +411,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "AzureSqlTable1",
+						"referenceName": "AzureSqlTableStocksClients",
 						"type": "DatasetReference"
 					}
 				]
