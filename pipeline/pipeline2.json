@@ -56,26 +56,38 @@
 							},
 							{
 								"source": {
-									"name": "savings",
+									"name": "name",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Savings",
-									"type": "Int32",
-									"physicalType": "int"
+									"name": "Name",
+									"type": "String",
+									"physicalType": "varchar"
 								}
 							},
 							{
 								"source": {
-									"name": "car",
+									"name": "surname",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Car",
-									"type": "Int32",
-									"physicalType": "int"
+									"name": "Surname",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "postcode",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Postcode",
+									"type": "String",
+									"physicalType": "varchar"
 								}
 							}
 						],
@@ -88,7 +100,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Collaterals",
+						"referenceName": "Clients",
 						"type": "DatasetReference"
 					}
 				],
