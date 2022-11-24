@@ -11,6 +11,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
 		},
+		"AzureSqlDatabase1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabase1'"
+		},
 		"StockService1_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://gist.githubusercontent.com/stevekinney/f96d5800852e91282f46/raw/ea047c2f5898de6c9fecf535db8b30abcfe5b423/stocks.json"
@@ -44,6 +48,9 @@
 					},
 					"AzureBlobStorage1_connectionString": {
 						"value": "[parameters('AzureBlobStorage1_connectionString')]"
+					},
+					"AzureSqlDatabase1_connectionString": {
+						"value": "[parameters('AzureSqlDatabase1_connectionString')]"
 					},
 					"StockService1_properties_typeProperties_url": {
 						"value": "[parameters('StockService1_properties_typeProperties_url')]"
