@@ -24,6 +24,15 @@
 							"supportRFC5988": "true"
 						}
 					},
+					"sink": {
+						"type": "AzureSqlSink",
+						"writeBehavior": "upsert",
+						"upsertSettings": {
+							"useTempDB": true
+						},
+						"sqlWriterUseTableLock": false,
+						"disableMetricsCollection": false
+					},
 					"enableStaging": false,
 					"translator": {
 						"type": "TabularTranslator",
@@ -52,6 +61,12 @@
 				"inputs": [
 					{
 						"referenceName": "StocksResource",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "AzureSqlTableStocksPrice",
 						"type": "DatasetReference"
 					}
 				]
