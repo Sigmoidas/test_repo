@@ -1,0 +1,12 @@
+{
+	"name": "StocksResource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "StockService1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	}
+}
