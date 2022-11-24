@@ -1,5 +1,5 @@
 {
-	"name": "Sotcks",
+	"name": "Stocks",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureBlobStorage1",
