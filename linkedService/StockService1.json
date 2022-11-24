@@ -1,0 +1,12 @@
+{
+	"name": "StockService1",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "https://gist.githubusercontent.com/stevekinney/f96d5800852e91282f46/raw/ea047c2f5898de6c9fecf535db8b30abcfe5b423/stocks.json",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
