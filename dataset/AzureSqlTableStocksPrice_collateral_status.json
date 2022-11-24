@@ -1,5 +1,5 @@
 {
-	"name": "collateral_status",
+	"name": "AzureSqlTableStocksPrice_collateral_status",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureSqlDatabase1",

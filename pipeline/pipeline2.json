@@ -106,7 +106,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "collateral_status",
+						"referenceName": "AzureSqlTableStocksPrice_collateral_status",
 						"type": "DatasetReference"
 					}
 				]
@@ -210,7 +210,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "collateral_status",
+						"referenceName": "AzureSqlTableStocksPrice_collateral_status",
 						"type": "DatasetReference"
 					}
 				]
