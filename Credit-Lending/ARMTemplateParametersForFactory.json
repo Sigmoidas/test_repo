@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Credit-Lending"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"StockService1_properties_typeProperties_url": {
+			"value": "https://gist.githubusercontent.com/stevekinney/f96d5800852e91282f46/raw/ea047c2f5898de6c9fecf535db8b30abcfe5b423/stocks.json"
+		}
+	}
+}
