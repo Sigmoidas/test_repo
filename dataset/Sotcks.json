@@ -1,0 +1,19 @@
+{
+	"name": "Sotcks",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Stocks.json",
+				"container": "input"
+			}
+		},
+		"schema": {}
+	}
+}
